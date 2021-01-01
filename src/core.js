@@ -22,4 +22,9 @@ const playGame = (description, getGameData) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export default playGame;
+const getRandom = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+
+export {
+  playGame,
+  getRandom,
+};
