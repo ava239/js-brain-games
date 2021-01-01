@@ -23,8 +23,12 @@ const playGame = (description, getGameData) => {
 };
 
 const getRandom = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const randomPositionFromArray = (arr) => Math.floor(Math.random() * arr.length);
+const randomElemFromArray = (arr) => arr[randomPositionFromArray(arr)];
 
 export {
   playGame,
   getRandom,
+  randomElemFromArray,
+  randomPositionFromArray,
 };

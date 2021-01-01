@@ -1,4 +1,4 @@
-import { playGame, getRandom } from '../core.js';
+import { playGame, getRandom, randomElemFromArray } from '../core.js';
 
 const gameDescription = 'What is the result of the expression?';
 const minNumber = 1;
@@ -17,7 +17,6 @@ const calculateAnswer = (op1, op2, operation) => {
   }
   return false;
 };
-const randomElemFromArray = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 const run = () => {
   const getGameData = () => {
