@@ -11,3 +11,5 @@
 [![asciicast](https://asciinema.org/a/D1l1N37dLaXjxVOYD6dnOcYD4.svg)](https://asciinema.org/a/D1l1N37dLaXjxVOYD6dnOcYD4)
 ## brain-calc game
 [![asciicast](https://asciinema.org/a/7nmvwZXRLyMFAidQkrkcvNOwE.svg)](https://asciinema.org/a/7nmvwZXRLyMFAidQkrkcvNOwE)
+## brain-gcd game
+[![asciicast](https://asciinema.org/a/2qqEOHE2t4ZW97Wo2RBP0VcSU.svg)](https://asciinema.org/a/2qqEOHE2t4ZW97Wo2RBP0VcSU)
